@@ -82,7 +82,6 @@ class Bank(var balance: LongArray) {
 }
 
 fun main() {
-    //"deposit","transfer","deposit"
     val bank = Bank(balance = longArrayOf(10, 100, 20, 50, 30))
     val param1 = bank.withdraw(account = 3, money = 10)
     println("param1: $param1 - balance = ${bank.balance.toList()}")
