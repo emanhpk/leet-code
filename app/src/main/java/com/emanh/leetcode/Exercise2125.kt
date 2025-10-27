@@ -50,5 +50,6 @@ class Solution {
 }
 
 fun main() {
-    Solution().numberOfBeams(arrayOf("011001", "000000", "010100", "001000"))
+    val result = Solution().numberOfBeams(arrayOf("011001", "000000", "010100", "001000"))
+    println(result)
 }
